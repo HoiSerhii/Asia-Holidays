@@ -33,7 +33,10 @@ body {
     width: 840px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(230,230,230);
 }
 
 .image {
@@ -43,11 +46,11 @@ body {
     align-items: center;
 }
 
-p {
-    color: #FFFFFF;
+label {
+    color: rgb(230,230,230);
 }
 
 img {
-    border-style: ridge;
+    border:4px groove #989898;
 }
 
