@@ -10,12 +10,17 @@ body {
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-position: top;
+    font-family: 'Questrial', sans-serif;
 }
 
 .header {
     height: 210px;
     width: 840px;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .header-left {
@@ -36,7 +41,6 @@ body {
 
 .label-logo {
     font-size: 12px;
-    font-family: "Tahoma", sans-serif;
     margin-top: 3%;
 }
 
@@ -46,8 +50,22 @@ body {
 
 .header-right {
     height: 100%;
-    width: 50%;
-    /*background-color: blue;*/
+    width: 17%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.contacts {
+    margin-bottom: 15%;
+}
+
+.contacts > div {
+    font-size: 12px;
+    color: rgb(230,230,230);
+    margin-bottom: 5%;
 }
 
 .main {
@@ -66,7 +84,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     font-size: 12px;
-    font-family: "Tahoma", sans-serif;
     color: rgb(230,230,230);
 }
 
